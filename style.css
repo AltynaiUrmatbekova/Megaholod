@@ -56,6 +56,23 @@ section {
     padding-top: 20px;
     margin-top: 20px;
 }
+
+}
+.right {
+  float: right;
+  padding: 30px;
+  margin: 50px;
+}
+.left {
+  float: left;
+  padding: 30px;
+  margin: 50px;
+}
+.text {
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
 .partner {
   background-color: white;
 }
