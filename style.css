@@ -32,6 +32,32 @@ code {
     align-items: center; */
     padding-top: 100px;
 }
+
+.main-div {
+  background-color: #28285A;
+  padding: 100px 0;
+  margin: 20px 0;
+}
+.img-group {
+  background-color: white;
+  border-radius: 100%;
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  padding-top: 15px;
+  margin: 0 auto;
+}
+.group {
+  text-align: center;
+  color: white;
+  padding: 20px 0;
+}
+.justify-center {
+  justify-content: center;
+}
+
+
+
 main {
     background-image: url(./images/teplovoe-oborudovanie-restorana-02\ 1.png);
     width: 700px;
@@ -40,7 +66,7 @@ main {
     background-repeat: no-repeat;
     align-items: center;  
 }
-h2 {
+.h2-header {
     color: white;
     background-color: gray;
     width: 350px;
@@ -56,7 +82,14 @@ section {
     padding-top: 20px;
     margin-top: 20px;
 }
-
+.h2-group {
+  text-align: center;
+  color: white;
+  margin-top: 5px;
+}
+.bg-blue dark {
+  color: white;
+  background-color: darkblue;
 }
 .right {
   float: right;
