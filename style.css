@@ -55,9 +55,16 @@ code {
 .justify-center {
   justify-content: center;
 }
+.partner {
+  text-align: center;
+}
 
-
-
+.advantage {
+  background-color: #28285A;
+  color: white;
+  text-align: center;
+  padding: 50px;
+}
 main {
     background-image: url(./images/teplovoe-oborudovanie-restorana-02\ 1.png);
     width: 700px;
