@@ -10,16 +10,35 @@
 <body>
     <header class="container">
         <nav class="navbar">
-            <img src="./images/logo.svg" width="200px" alt="">
+           <a href=""> <img src="./images/logo.svg" width="200px" alt=""></a>
             <ul>
-                <li><a href="">О компании</a></li>
+                <li><a href="">О компании
+                    <ul class="dropdown">
+                        <li>Karakol</li>
+                        <li>Ak-Suu</li>
+                        <li>Kyrgyzstan</li>
+                    </ul>
+                </a></li>
                 <li><a href="">Каталог продукции</a></li>
                 <li><a href="">Контакты</a></li>
+                
             </ul>
-            <code>+7(777) 707-37-97
+            <ul id="phone">
+                <li class="number">+7(777) 707-37-97</li>
+                <li class="order">Заказать звонок</li>
+            </ul>
+            <!-- <code>+7(777) 707-37-97
                 <br>
                 <a href="">Заказать звонок</a>
-            </code>
+            </code> -->
+            <!-- <ul class="dropdown">
+                <li><a href="#">Company</a></li>
+                <li><a href="#">Partners</a></li>
+                <li><a href="#">Team</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Online Apply</a></li>
+              </ul> -->
         </nav>
     </header>
     <main class="container">
@@ -30,6 +49,10 @@
                 оборудование "под ключ"
             </h2>
         </div>
+            <button class="main-order">
+                Заказать <span>></span>
+            </button>
+        
     </main>
     <div class="main-div">
         <div class="container">
@@ -123,48 +146,47 @@
         </div>
     </div>
     <article>
-        <h3>
+        <h3 class="popular">
             Популярные товары
         </h3>
         <div class="container">
             <div class="row">   
                 <div class="col-3">
-                    <img class="photo" src="./images/lar.png" width="150px" alt="">
+                    <img class="photo" src="./images/lar.png" width="200px" alt="">
                     <p>
                         Ларь морозильный МЛП-400
                     </p>
-                    <br>
-                    <code class="price">41 788 p
+                    <p class="price">41 788 p
                     <a href="">Заказать</a><span>></span>
-                </code>
+                    </p>
                 </div>
                 <div class="col-3">
-                    <img class="photo" src="./images/lar.png" width="150px" alt="">
+                    <img class="photo" src="./images/lar.png" width="200px" alt="">
                     <p>
                         Ларь морозильный МЛП-400
                     </p>
-                    <br>
-                    <code class="price">41 788 p
-                </code>
+                    <p class="price">
+                        41 788 p
+                    </p>
                 </div>
                 <div class="col-3">
-                    <img class="photo" src="./images/lar.png" width="150px" alt="">
+                    <img class="photo" src="./images/lar.png" width="200px" alt="">
                     <p>
                         Ларь морозильный МЛП-400
                     </p>
-                    <br>
-                    <code class="price">41 788 p
-                </code>
+                    <p class="price">
+                        41 788 p
+                    </p>
                 </div>
                 <div class="col-3">
-                    <img class="photo" src="./images/lar.png" width="150px" alt="">
+                    <img class="photo" src="./images/lar.png" width="200px" alt="">
                     <p>
                         Ларь морозильный МЛП-400
                     </p>
-                    <br>
-                    <code class="price">41 788 p
-                </code>
-                </div> 
+                    <p class="price">
+                        41 788 p
+                    </p>
+                </div>
             </div>
         </div>
             </div>
@@ -172,47 +194,49 @@
         <div class="container">
             <div class="row">   
                 <div class="col-3">
-                    <img class="photo" src="./images/lar.png" width="150px" alt="">
+                    <img class="photo" src="./images/lar.png" width="200px" alt="">
                     <p>
                         Ларь морозильный МЛП-400
                     </p>
-                    <br>
-                    <code class="price">41 788 p
-                    <a href=""><span>Заказать</span> <span>></span></a>
-                </code>
+                    <p class="price">
+                        41 788 p
+                    </p>
                 </div>
                 <div class="col-3">
-                    <img class="photo" src="./images/lar.png" width="150px" alt="">
+                    <img class="photo" src="./images/lar.png" width="200px" alt="">
                     <p>
                         Ларь морозильный МЛП-400
                     </p>
-                    <br>
-                    <code class="price">41 788 p
-                </code>
+                    <p class="price">
+                        41 788 p
+                    </p>
                 </div>
                 <div class="col-3">
-                    <img class="photo" src="./images/lar.png" width="150px" alt="">
+                    <img class="photo" src="./images/lar.png" width="200px" alt="">
                     <p>
                         Ларь морозильный МЛП-400
                     </p>
-                    <br>
-                    <code class="price">41 788 p
-                </code>
+                    <p class="price">
+                        41 788 p
+                    </p>
                 </div>
                 <div class="col-3">
-                    <img class="photo" src="./images/lar.png" width="150px" alt="">
+                    <img class="photo" src="./images/lar.png" width="200px" alt="">
                     <p>
                         Ларь морозильный МЛП-400
                     </p>
-                    <br>
-                    <code class="price">41 788 p
-                </code>
+                    <p class="price">
+                        41 788 p
+                    </p>
                 </div>
             </div>
         </div>
             </div>
         </div>
-        <button class="tarif">Все тарифы</button>
+        <button class="tarif">
+            Все тарифы
+            <span>></span>
+        </button>
     </article>
         <div class="bg-blue dark">
         <div class="container">
@@ -293,27 +317,43 @@
             </div>
         </div>
     </div>
-    <section>
-        <img src="./images/Контакты.png" width="100%" alt="">
-    </section>
+    <div class="map">
+        <div class="card-map">
+            <h2>Адрес:</h2>
+            <p>4517 Washington Ave. Manchester, Kentucky 39495</p>
+            <h2>Офис продаж:</h2>
+            <p>4517 Washington Ave. Manchester, Kentucky 39495</p>
+            <h2>Почта</h2>
+            <p>alma.lawson@example.com</p>
+            <p>+7(777) 707-37-97</p>
+            <button class="app">Оставить заявку ></button>
+        </div>
+    </div>
     <footer>
         <div class="footer">
-        <img src="./images/logo.svg" width="200px" alt="">
+        <a href=""><img src="./images/logo.svg" width="200px" alt=""></a>
         <ul>
-            <li>О компании</li>
-            <li>Каталог продукции</li>
-            <li>Контакты</li>
+            <li><a href="">О компании</a></li>
+            <li><a href="">Каталог продукции</a></li>
+            <li><a href="">Контакты</a></li>
         </ul>
-        <code>+7(777) 707-37-97
-        <br>
-        <a class="white" href="">Заказать звонок</a>
-    </code>
-</div>
+        <ul>
+            <li id="phone">
+                <a href="">+7(777) 707-37-97</a>
+            </li>
+            <li>
+                <a href="">Заказать звонок</a>
+            </li>
+        </ul>
+        </div>
     <hr>
     <div class="rights">
     <p>2021 Все права защищены.</p>
-    <img src="./images/studio 1.png" alt="">
+    <a href=""><img src="./images/studio 1.png" alt=""></a>
 </div>
+<a href="#top"><button class="example-1"><span class="ex-1">
+    +7(777) 707-37-97</span><i class="fas fa-phone-square-alt"></i></button></a>
     </footer>
+    <script src="https://kit.fontawesome.com/c13bbe8493.js" crossorigin="anonymous"></script>
 </body>
 </html>
